@@ -1,0 +1,1 @@
+This syntax error tells me that ruby encountered a ")" when it was expecting a "}". This is probably a typo when an open bracket was closed with a parentheses instead of a closing bracket.
