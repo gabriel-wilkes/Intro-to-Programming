@@ -1,0 +1,1 @@
+Nothing will print to the screen because we return in the middle of the scream method so the puts statement doesn't get evaluated.
