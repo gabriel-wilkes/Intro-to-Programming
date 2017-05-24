@@ -1,0 +1,1 @@
+This error message tells me that a program attempted to use a variable or method called 'shoes' but 'shoes' hasn't yet been given a value or defined. This could be a scope error or perhaps just forgetting to define or give a value to 'shoes'.

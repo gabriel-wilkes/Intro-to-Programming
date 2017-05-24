@@ -1,0 +1,7 @@
+The first program prints: 
+3
+
+The second program prints:
+5.rb:6:in `<main>': undefined local variable or method `x' for main:Object (NameError)
+
+Only the second program gives an error. The reason for the error is that x is undefined when we attempt to print it to the screen. The reason that it is undefined is that the x variable was declared in the "times" method scope and isn't available in the outer scope.
