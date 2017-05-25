@@ -1,0 +1,4 @@
+There is nothing printed but the following is returned:
+#<Proc:0x007ff485950e58@(irb):4>
+
+This appears to be a pointer to the Proc object
