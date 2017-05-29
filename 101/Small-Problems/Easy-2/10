@@ -1,0 +1,12 @@
+The code will print:
+
+Moe
+Larry
+CURLY
+SHEMP
+Harpo
+CHICO
+Groucho
+Zeppo
+
+The reason this is printed is the shovel operator (<<), when used here to copy from array1 to array2, copies the string objects. So, when upcase! is run on the string objects in array1 it also effects the values in array2 as they both contain the same string objects. Of course this is also because upcase! is performed directly on the string object.

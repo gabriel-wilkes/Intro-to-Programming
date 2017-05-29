@@ -1,0 +1,5 @@
+This prints out:
+BOB
+BOB
+
+The reason this is printed out is that name references the string object 'Bob'. Then, same_name is referenced to the same string object 'Bob'. When name.upcase! is run the upcase! is performed directly on the object that both name and same_name reference.
