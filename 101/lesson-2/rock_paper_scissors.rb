@@ -35,7 +35,7 @@ loop do
 
   computer_choice = VALID_CHOICES.sample
 
-  Kernel.puts("Your chose: #{choice}; Computer chose: #{computer_choice}")
+  prompt("You chose: #{choice}; Computer chose: #{computer_choice}")
 
   display_results(choice, computer_choice)
 
