@@ -1,14 +1,8 @@
-print "Enter a noun: "
-noun = gets.chomp
-print "Enter a verb: "
-verb = gets.chomp
-print "Enter an adjective: "
-adj = gets.chomp
-print "Enter an adverb: "
-adverb = gets.chomp
-puts
-puts "Do you #{verb} your #{adj} #{noun} #{adverb}? That's hilarious!"
+def madlibs(text_file)
+  text = File.read(text_file)
+end
 
+madlibs('dont_worry.txt')
 
 
 # EXAMPLE:
